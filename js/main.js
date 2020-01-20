@@ -198,7 +198,7 @@ License: https://themeforest.net/licenses/standard
 		// Youtube Video Background
 		if ($('#youtube-background').length > 0) {
 			var videos = [
-				{videoURL: "sidYzwMxXbw", showControls:false, containment:'.overlay-video',autoPlay:true, mute:true, startAt:0,opacity:1, loop:false, showYTLogo:false, realfullscreen: true, addRaster:true}
+				{videoURL: "kQvNuc7z-To", showControls:false, containment:'.overlay-video',autoPlay:true, mute:true, startAt:0,opacity:1, loop:false, showYTLogo:false, realfullscreen: true, addRaster:true}
 			];
 
 			$('.player').YTPlaylist(videos, false);
