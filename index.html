@@ -5,11 +5,14 @@
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128574645-1"></script>
 	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
 
-	  gtag('config', 'UA-128574645-1');
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-128574645-1');
 	</script>
 
 	<title>Les Vidéalistes</title>
@@ -98,13 +101,31 @@ De l'écriture au montage, les Vidéalistes s'occupent de tout.">
 						<nav class="header-block nav-block header-nav">
 							<ul class="nav">
 								<li class="active"><a href="#home" class="load-content">Accueil</a></li>
-								<!-- <li><a href="#about" class="load-content">Les vidéalistes</a></li> -->
+								<li><a href="#about" class="load-content">Les vidéalistes</a></li>
+								<li><a href="#vision" class="load-content">Notre vision</a></li>
 								<li><a href="#services" class="load-content">Les offres</a></li>
 								<li><a href="#portfolio" class="load-content">Portfolio</a></li>
 								<li><a href="mailto:diane.videaliste@gmail.com?bcc=valentine.sas@hotmail.fr" target="_blank" class="btn btn-white">Contact</a></li>
-								<li><a class="typeform-share button" href="https://daine111391.typeform.com/to/nWN23P" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#000000;color:white;cursor:pointer;line-height:40px;text-align:center;margin:10px;margin-left:25px;height:40px;padding:0px 25px;border-radius:0px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-submit-close-delay="5" target="_blank">Demander un devis </a> </li>
+								<li><a class="typeform-share button" href="https://daine111391.typeform.com/to/nWN23P" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#000000;color:white;cursor:pointer;line-height:40px;text-align:center;margin:10px;margin-left:25px;height:40px;padding:0px 25px;border-radius:0px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
+									  data-submit-close-delay="5" target="_blank">Demander un devis </a> </li>
 
-								<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+								<script>
+									(function() {
+										var qs, js, q, s, d = document,
+											gi = d.getElementById,
+											ce = d.createElement,
+											gt = d.getElementsByTagName,
+											id = "typef_orm_share",
+											b = "https://embed.typeform.com/";
+										if (!gi.call(d, id)) {
+											js = ce.call(d, "script");
+											js.id = id;
+											js.src = b + "embed.js";
+											q = gt.call(d, "script")[0];
+											q.parentNode.insertBefore(js, q)
+										}
+									})()
+								</script>
 
 							</ul>
 						</nav>
@@ -144,7 +165,7 @@ De l'écriture au montage, les Vidéalistes s'occupent de tout.">
 			<div class="of-right"></div>
 		</div>
 
-		<!-- Home Block -->
+		<!-- Home -->
 		<div id="home" class="ed-homeblock">
 			<div class="homeblock-container">
 
@@ -168,7 +189,8 @@ De l'écriture au montage, les Vidéalistes s'occupent de tout.">
 											</div>
 										</div>
 										<!-- En revanche, nous sommes plus prêts que jamais pour réaliser vos vidéaux !<br/> -->
-										<p class="lead text-white animated onstart" data-animation="fadeInUp" data-animation-delay="150"> Notre secret ? Du travail, quelques grains de fantaisie, beaucoup de passion, de la rigueur... <br> Les Vidéalistes vont vous surprendre ! </br> </p>
+										<p class="lead text-white animated onstart" data-animation="fadeInUp" data-animation-delay="150"> Notre secret ? Du travail, quelques grains de fantaisie, beaucoup de passion, de la rigueur... <br> Les Vidéalistes vont vous surprendre ! </br>
+										</p>
 										<div class="btn-group-alt animated onstart" data-animation="fadeInUp" data-animation-delay="300">
 											<a href="mailto:diane.videaliste@gmail.com?bcc=valentine.sas@hotmail.fr" class="btn btn-white">Contactez-nous</a>
 											<!-- <a href="#subscribe-modal" class="btn btn-white open-popup-link">Contactez-nous</a> -->
@@ -187,7 +209,10 @@ De l'écriture au montage, les Vidéalistes s'occupent de tout.">
 			</div>
 		</div>
 
-		<!-- Side Block -->
+		<!-- FIN de Home  -->
+
+
+		<!-- Menu gauche -->
 		<div class="ed-sideblock">
 			<div class="sideblock-container">
 
@@ -213,27 +238,43 @@ De l'écriture au montage, les Vidéalistes s'occupent de tout.">
 
 				</section> -->
 
-<!-- Section Team photos
-				<section id="team" class="section">
-					<div class="container" style="margin-top:-100px; margin-bottom:-70px; width:85%;">
+	<!-- FIN de menu gauche -->
+
+
+<!-- Les Vidéalistes -->
+				<section id="about" class="section" style="margin-bottom: -5%;">
+
+					<div class="container" style="margin-bottom:-80px;">
 						<div class="row">
+							<div class="col-md-12">
+								<h2 class="text-center">Vous idéalisez, nous réalisons</h2>
+								<div class="divider divider-alt divider-center divider-dark"></div>
+								<!-- <h4 style="text-align:center;">L’une a l’œil, l’autre la plume. </h3> -->
+								<p class="lead text-center mb-50"> Vidéos institutionnelles ou artistiques, bandes démo, web séries, motion design, drone...
+									<br> De l'écriture au montage, les Vidéalistes s'occupent de tout.
+
+							</div>
 						</div>
 
-						<div class="row"> -->
+						<div class="container" style="margin-top:-100px; margin-bottom:-70px; width:85%;">
+							<div class="row">
+							</div>
 
-							<!-- Diane Guyot
-							<div class="col-md-6 col-sm-6">
-								<div class="profile-card ">
-									<div class="user-image">
-										<img src="demo/images/team/dianeguyot.jpg" alt="">
-										<div class="user-detail">
+							<div class="row">
+
+								<!-- Diane Guyot -->
+								<div class="col-md-6 col-sm-6">
+									<div class="profile-card ">
+										<div class="user-image" style="width:70%;">
+											<img src="demo/images/team/dianeguyot.jpg" alt="">
+											<div class="user-detail">
+											</div>
 										</div>
-									</div>
 
-									<div class="">
-										<h5 class="heading-uppercase text-center" style="margin-bottom:10px;">Diane Guyot</h5>
-										<!-- <p class="role"></p> -->
-										<!-- <div class="role">
+										<div class="">
+											<h5 class="heading-uppercase text-center" style="margin-bottom:10px;">Diane Guyot</h5>
+											<!-- <p class="role"></p> -->
+											<!-- <div class="role">
 											<nav class="socials-icons dark display-table margincenter" style="margin-bottom: 20px; margin-top:-20px;">
 												<ul>
 													<li><a href="https://www.linkedin.com/in/dianeguyotdonahue/" target="_blank" class="social-icon"><i class="fa fa-linkedin"></i></a></li>
@@ -243,105 +284,171 @@ De l'écriture au montage, les Vidéalistes s'occupent de tout.">
 													<li><a href="mailto:diane.videaliste@gmail.com" class="social-icon"><i class="fa fa-envelope-o"></i></a></li>
 												</ul>
 											</nav>
+										</div> -->
 										</div>
-									</div> -->
 
- <!--
-									<div style="margin-bottom:70px;">
-										<div class="progress progress-2">
-											<span class="title" style= "text-align:center;">Prise de vues - Montage Vidéo - Musique </span>
-											<div >
+										<div style="margin-bottom:70px;">
+											<div class="progress progress-2">
+												<span class="title" style="text-align:center;">Prises de vue - Montage - Digital </span>
+												<div>
+													<!-- <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div> -->
+												</div>
 											</div>
-										</div>
-										<!-- <div class="progress progress-2">
+											<!-- <div class="progress progress-2">
 											<span class="title">Montage vidéo</span>
 											<div class="bar background-white"> -->
+											<!-- <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div> -->
 											<!-- </div>
 										</div>
 										<div class="progress progress-2 mb-0">
 											<span class="title">Musique</span>
 											<div class="bar background-white"> -->
-												<!-- <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div> -->
+											<!-- <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div> -->
 											<!-- </div>
 										</div> -->
+											<div class="role">
+												<nav class="socials-icons dark display-table margincenter" style="margin-bottom: 20px; margin-top:-20px;">
+													<ul>
+														<li><a href="https://www.linkedin.com/in/dianeguyotdonahue/" target="_blank" class="social-icon"><i class="fa fa-linkedin"></i></a></li>
+														<li><a href="https://www.flickr.com/photos/148603820@N05/" target="_blank" class="social-icon"><i class="fa fa-flickr"></i></a></li>
+														<li><a href="https://www.youtube.com/channel/UCIxcTl_Loc6YezUr6dz2COw" target="_blank" class="social-icon"><i class="fa fa-youtube"></i></a></li>
+														<li><a href="https://www.instagram.com/diane_guyot/" target="_blank" class="social-icon"><i class="fa fa-instagram"></i></a></li>
+														<li><a href="mailto:diane.videaliste@gmail.com" class="social-icon"><i class="fa fa-envelope-o"></i></a></li>
+													</ul>
+												</nav>
+											</div>
 
-										<!-- Social Media
+										</div>
+									</div>
+								</div>
+
+								<!-- Valentine Sas -->
+								<div class="col-md-6 col-sm-6">
+									<div class="profile-card text-center">
+										<div class="user-image" style="width:70%;">
+											<img src="demo/images/team/valentinesas.jpg" alt="">
+											<div class="user-detail">
+
+											</div>
+										</div>
+										<h5 class="heading-uppercase mb-0" style="margin-bottom:10px;">Valentine Sas</h5>
+									</div>
+								</div>
+
+
+								<div class="row">
+									<div class="col-md-6 col-sm-6">
+									</div>
+
+									<div class="col-md-6 col-sm-6">
+										<div class="progress progress-2">
+											<span class="title" style="text-align:center;">Scenario - Production - Realisation </span>
+											<div>
+												<!-- <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div> -->
+											</div>
+										</div>
+
 										<div class="role">
-											<nav class="socials-icons dark display-table margincenter" style="margin-bottom: 20px; margin-top:-20px;">
-												<ul>
-													<li><a href="https://www.linkedin.com/in/dianeguyotdonahue/" target="_blank" class="social-icon"><i class="fa fa-linkedin"></i></a></li>
-													<li><a href="https://www.flickr.com/photos/148603820@N05/" target="_blank" class="social-icon"><i class="fa fa-flickr"></i></a></li>
-													<li><a href="https://www.youtube.com/channel/UCIxcTl_Loc6YezUr6dz2COw" target="_blank" class="social-icon"><i class="fa fa-youtube"></i></a></li>
-													<li><a href="https://www.instagram.com/diane_guyot/" target="_blank" class="social-icon"><i class="fa fa-instagram"></i></a></li>
-													<li><a href="mailto:diane.videaliste@gmail.com" class="social-icon"><i class="fa fa-envelope-o"></i></a></li>
-												</ul>
-											</nav>
+											<div class="ud-content">
+												<p class="mb-15"></p>
+												<nav class="socials-icons dark display-table margincenter" style="margin-bottom: 20px; margin-top:-20px;">
+													<ul>
+														<li><a href="mailto:valentine.videaliste@gmail.com" class="social-icon"><i class="fa fa-envelope-o"></i></a></li>
+														<li><a href="https://www.linkedin.com/in/valentine-sas-a788a7183/" target="_blank" class="social-icon"><i class="fa fa-linkedin"></i></a></li>
+													</ul>
+												</nav>
+											</div>
 										</div>
 
-									</div>
-								</div>
-							</div> -->
-
-							<!-- Valentine Sas
-							<div class="col-md-6 col-sm-6">
-								<div class="profile-card text-center">
-									<div class="user-image">
-										<img src="demo/images/team/valentinesas.jpg" alt="">
-										<div class="user-detail">
-
-										</div>
-									</div>
-									<h5 class="heading-uppercase mb-0" style="margin-bottom:10px;">Valentine Sas</h5>
-								</div>
-							</div>
-
-
-							<div class="row">
-								<div class="col-md-6 col-sm-6">
-								</div>
-
-								<div class="col-md-6 col-sm-6">
-									<div class="progress progress-2">
-										<span class="title" style= "text-align:center;">Scénario - Production - Réalisation </span>
-										<div>
-										</div>
-									</div>
-
-									<div class="role">
-										<div class="ud-content">
-											<p class="mb-15"></p>
-											<nav class="socials-icons dark display-table margincenter" style="margin-bottom: 20px; margin-top:-20px;">
-												<ul>
-													<li><a href="mailto:valentine.videaliste@gmail.com"  class="social-icon"><i class="fa fa-envelope-o"></i></a></li>
-												</ul>
-											</nav>
-										</div>
-									</div>
-
-									<!-- <div class="progress progress-2">
+										<!-- <div class="progress progress-2">
 										<span class="title">Écriture de scénario</span>
 										<div class="bar background-white"> -->
+										<!-- <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div> -->
 										<!-- </div>
 									</div>
 									<div class="progress progress-2 mb-0 xs-mb-20">
 										<span class="title">Réalisation</span>
 										<div class="bar background-white"> -->
+										<!-- <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div> -->
 										<!-- </div>
 									</div> -->
 
-								<!-- </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- FIN Section Les Vidéalistes -->
+
+
+
+				<!-- Section Notre vision -->
+
+				<section id="vision" class="section pt-60  background-grey">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2">
+								<h2 class="text-center">Notre vision</h2>
+								<div class="divider divider-alt divider-center divider-dark"></div>
+								<p class="lead text-center mb-50">Les Vidéalistes propose un service de production vidéo complet
+									dédié aux start-ups avec une qualité identique à celle offerte par les agences traditionnelles
+									et à des prix plus abordables. Innover en accompagnant les startups dans leur croissance
+									avec des supports visuels de qualité est notre mission.</p>
 
 							</div>
-
 						</div>
 					</div>
 
-					</div>
-				</section> -->
+					<div class="container">
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1">
+								<div class="row">
+									<div class="col-md-4 col-sm-4">
+										<div class="icon-box text-center">
+											<div class="box-container">
+												<div class="icon-box-icon text-blue">
+													<i class="ion-ios-people-outline"></i>
+												</div>
+												<h3 class="h4"> Des clients plus engagés </h3>
+												<p>Ce n'est un secret pour personne que les images stimulent l'engagement sur les réseaux sociaux.
+													Les posts sur les réseaux sociaux contenant des vidéos augmentent le nombre de visites de 48%. </p>
+											</div>
+										</div>
+									</div>
 
+									<div class="col-md-4 col-sm-4">
+										<div class="icon-box text-center">
+											<div class="box-container">
+												<div class="icon-box-icon text-blue">
+													<i class="icon ion-ios-videocam-outline"></i>
+												</div>
+												<h3 class="h4"> Un message qui reste </h3>
+												<p> Une vidéo est plus efficace qu'un texte. Lorsqu’on associe des informations avec une vidéo,
+													les personnes retiennent 95% de l'information trois jours plus tard, par opposition à seulement 10% avec du texte seul.</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-4">
+										<div class="icon-box text-center">
+											<div class="box-container">
+												<div class="icon-box-icon text-blue">
+													<i class="icon ion-ios-cart-outline"></i>
+												</div>
+												<h3 class="h4"> Un atout stratégique important </h3>
+												<p> La plupart des visiteurs d'un site internet reste connecté plus longtemps au site si celui-ci contient des vidéos.
+													90 % des consommateurs affirment qu'une vidéo les aidera à prendre une décision d'achat.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+				</section>
 
-				<!-- Section un service de video complet
-				 <section class="section background-grey">
+				<!-- FIN de Section Notre vision -->
+
+				<!-- Baniere contact -->
+				<section class="section">
 					<div class="container text-center">
 						<div class="row">
 							<div class="col-md-10 col-md-offset-1">
@@ -350,20 +457,24 @@ De l'écriture au montage, les Vidéalistes s'occupent de tout.">
 							</div>
 						</div>
 					</div>
-				</section> -->
+				</section>
 
-				<section id="services" class="section">
+				<!-- FIN de Baniere contact -->
 
-						<div class="container">
-							<div class="row">
-								<div class="col-md-10 col-md-offset-1">
-									<h2 class="text-center">Les offres</h2>
-									<div class="divider divider-alt divider-center divider-dark"></div>
-									<!-- <p class="lead mb-20 text-center">Sed magna elit, blandit sed eros id, auctor ullamcorper ex. Pellentesque aliquet interdum sodales. Praesent lobortis nisl vitae pharetra pharetra. Aliquam vitae elementum ipsum.</p> -->
-								</div>
+
+
+				<section id="services" class="section background-grey">
+
+					<div class="container">
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1">
+								<h2 class="text-center">Les offres</h2>
+								<div class="divider divider-alt divider-center divider-dark"></div>
+								<!-- <p class="lead mb-20 text-center">Sed magna elit, blandit sed eros id, auctor ullamcorper ex. Pellentesque aliquet interdum sodales. Praesent lobortis nisl vitae pharetra pharetra. Aliquam vitae elementum ipsum.</p> -->
 							</div>
+						</div>
 
-							<br> </br>
+						<br> </br>
 
 						<div class="row">
 							<div class="col-lg-3 col-md-4 col-sm-6" style="margin-right:40px;margin-left:40px;">
@@ -382,7 +493,8 @@ De l'écriture au montage, les Vidéalistes s'occupent de tout.">
 										<i class="ion-ios-heart-outline"></i>
 									</div>
 									<h3 class="h4"> Instants précieux </h3>
-									<p> Événements, mariages, anniversaires, baptêmes, soirées...</p> </p>
+									<p> Événements, mariages, anniversaires, baptêmes, soirées...</p>
+									</p>
 								</div>
 							</div>
 
@@ -400,14 +512,15 @@ De l'écriture au montage, les Vidéalistes s'occupent de tout.">
 
 
 
-							<div class="container">
-								<div class="row">
-									<div class="col-md-12 col-md-offset-4">
-										<a class="typeform-share button" href="https://daine111391.typeform.com/to/nWN23P" data-mode="popup" style="text-transform:uppercase;letter-spacing: 3px;display:inline-block;text-decoration:none;background-color:#000000;color:white;cursor:pointer;line-height:40px;text-align:center;margin:10px;margin-left:21px;height:40px;padding:0px 25px;border-radius:0px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-submit-close-delay="5" target="_blank">Demander un devis </a>
-										<!-- <h2 class="text-center">Les offres</h2> -->
-									</div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-md-offset-4">
+									<a class="typeform-share button" href="https://daine111391.typeform.com/to/nWN23P" data-mode="popup" style="text-transform:uppercase;letter-spacing: 3px;display:inline-block;text-decoration:none;background-color:#000000;color:white;cursor:pointer;line-height:40px;text-align:center;margin:10px;margin-left:21px;height:40px;padding:0px 25px;border-radius:0px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
+									  data-submit-close-delay="5" target="_blank">Demander un devis </a>
+									<!-- <h2 class="text-center">Les offres</h2> -->
 								</div>
-					</div>
+							</div>
+						</div>
 				</section>
 
 
@@ -422,7 +535,7 @@ De l'écriture au montage, les Vidéalistes s'occupent de tout.">
 						</div>
 					</div>
 
-<br> </br>
+					<br> </br>
 
 					<div class="container">
 						<nav class="portfolio-filter isotope-filter mb-50 pull-center">
@@ -526,7 +639,7 @@ De l'écriture au montage, les Vidéalistes s'occupent de tout.">
 
 
 							<div class="row">
-							<!-- Behind The Scenes Cartier -->
+								<!-- Behind The Scenes Cartier -->
 								<article class="portfolio-item isotope-item col-md-6 col-sm-6 web design">
 									<div class="project-container">
 										<iframe width="560" height="312" src="https://www.youtube.com/embed/znuN4GI4sVI" frameborder="0" allow="autoplay" allowfullscreen></iframe>
@@ -535,154 +648,154 @@ De l'écriture au montage, les Vidéalistes s'occupent de tout.">
 							</div>
 
 							<!-- Givee -->
-								<article class="portfolio-item isotope-item col-md-6 col-sm-6 web">
-									<div class="project-container">
-										<iframe width="560" height="312" src="https://www.youtube.com/embed/-Q_rIC01bNs" frameborder="0" allow="autoplay" allowfullscreen></iframe>
-									</div>
-								</article>
-							</div>
-
-
-
-
-							<div class="row">
-								<!-- Crêpes & More -->
-								<article class="portfolio-item isotope-item col-md-6 col-sm-6 web">
-									<div class="project-container">
-										<iframe width="560" height="312" src="https://www.youtube.com/embed/3BDm-Eev7eY" frameborder="0" allow="autoplay" allowfullscreen></iframe>
-									</div>
-								</article>
-
-								<!-- Bees -->
-								<article class="portfolio-item isotope-item col-md-6 col-sm-6 design">
-									<div class="project-container">
-										<iframe width="560" height="312" src="https://www.youtube.com/embed/kQvNuc7z-To" frameborder="0" allow="autoplay" allowfullscreen></iframe>
-									</div>
-								</article>
-							</div>
-
-
-							<div class="row">
-								<!-- Mastersound -->
-								<article class="portfolio-item isotope-item col-md-6 col-sm-6 web design">
-									<div class="project-container">
-										<iframe width="560" height="312" src="https://www.youtube.com/embed/xpvtmWCBYb0" frameborder="0" allow="autoplay" allowfullscreen></iframe>
-									</div>
-								</article>
-
-								<!-- Danseuses -->
-								<article class="portfolio-item isotope-item col-md-6 col-sm-6 design">
-									<div class="project-container">
-										<iframe width="560" height="312" src="https://www.youtube.com/embed/Y8dKMUttNHE" frameborder="0" allow="autoplay" allowfullscreen></iframe>
-									</div>
-								</article>
-							</div>
-
-							<div class="row">
-								<!-- Papa 50s -->
-								<article class="portfolio-item isotope-item col-md-6 col-sm-6 brand">
-									<div class="project-container">
-										<iframe width="560" height="312" src="https://www.youtube.com/embed/15Pza-OzYKk" frameborder="0" allow="autoplay" allowfullscreen></iframe>
-									</div>
-								</article>
-
-								<!-- Raphaelle -->
-								<article class="portfolio-item isotope-item col-md-6 col-sm-6 brand">
-									<div class="project-container">
-										<iframe width="560" height="312" src="https://www.youtube.com/embed/gkmbllOGxC0" frameborder="0" allow="autoplay" allowfullscreen></iframe>
-									</div>
-								</article>
-							</div>
-
-
-							</div>
-
+							<article class="portfolio-item isotope-item col-md-6 col-sm-6 web">
+								<div class="project-container">
+									<iframe width="560" height="312" src="https://www.youtube.com/embed/-Q_rIC01bNs" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+								</div>
+							</article>
 						</div>
-						<!-- .portfolio-container end -->
+
+
+
+
+						<div class="row">
+							<!-- Crêpes & More -->
+							<article class="portfolio-item isotope-item col-md-6 col-sm-6 web">
+								<div class="project-container">
+									<iframe width="560" height="312" src="https://www.youtube.com/embed/3BDm-Eev7eY" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+								</div>
+							</article>
+
+							<!-- Bees -->
+							<article class="portfolio-item isotope-item col-md-6 col-sm-6 design">
+								<div class="project-container">
+									<iframe width="560" height="312" src="https://www.youtube.com/embed/kQvNuc7z-To" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+								</div>
+							</article>
+						</div>
+
+
+						<div class="row">
+							<!-- Mastersound -->
+							<article class="portfolio-item isotope-item col-md-6 col-sm-6 web design">
+								<div class="project-container">
+									<iframe width="560" height="312" src="https://www.youtube.com/embed/xpvtmWCBYb0" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+								</div>
+							</article>
+
+							<!-- Danseuses -->
+							<article class="portfolio-item isotope-item col-md-6 col-sm-6 design">
+								<div class="project-container">
+									<iframe width="560" height="312" src="https://www.youtube.com/embed/Y8dKMUttNHE" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+								</div>
+							</article>
+						</div>
+
+						<div class="row">
+							<!-- Papa 50s -->
+							<article class="portfolio-item isotope-item col-md-6 col-sm-6 brand">
+								<div class="project-container">
+									<iframe width="560" height="312" src="https://www.youtube.com/embed/15Pza-OzYKk" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+								</div>
+							</article>
+
+							<!-- Raphaelle -->
+							<article class="portfolio-item isotope-item col-md-6 col-sm-6 brand">
+								<div class="project-container">
+									<iframe width="560" height="312" src="https://www.youtube.com/embed/gkmbllOGxC0" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+								</div>
+							</article>
+						</div>
+
+
+					</div>
+
+					</div>
+					<!-- .portfolio-container end -->
 				</section>
 
 				</div>
-			</div>
-
-			<!-- Footer -->
-			<footer class="site-footer footer-mobile-light footer-content-light footer-mobile-content-dark">
-				<div class="container-fluid">
-					<p class="copyright"></p>
-					<nav class="socials-icons">
-						<ul>
-							<li><a href="https://www.facebook.com/Les-vidéalistes-731887030531891/" target="_blank" class="social-icon"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="https://www.youtube.com/channel/UCjEHNUwkBEhXjdIdau5Ctgw" target="_blank" class="social-icon"><i class="fa fa-youtube"></i></a></li>
-							<li><a href="https://www.linkedin.com/company/les-videalistes/" target="_blank" class="social-icon"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="https://www.instagram.com/lesvidealistes/" target="_blank" class="social-icon"><i class="fa fa-instagram"></i></a></li>
-						</ul>
-					</nav>
 				</div>
-			</footer>
 
-			<!-- Root element of PhotoSwipe. Must have class pswp. -->
-			<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+				<!-- Footer -->
+				<footer class="site-footer footer-mobile-light footer-content-light footer-mobile-content-dark">
+					<div class="container-fluid">
+						<p class="copyright"></p>
+						<nav class="socials-icons">
+							<ul>
+								<li><a href="https://www.facebook.com/Les-vidéalistes-731887030531891/" target="_blank" class="social-icon"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://www.youtube.com/channel/UCjEHNUwkBEhXjdIdau5Ctgw" target="_blank" class="social-icon"><i class="fa fa-youtube"></i></a></li>
+								<li><a href="https://www.linkedin.com/company/les-videalistes/" target="_blank" class="social-icon"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://www.instagram.com/lesvidealistes/" target="_blank" class="social-icon"><i class="fa fa-instagram"></i></a></li>
+							</ul>
+						</nav>
+					</div>
+				</footer>
 
-				<!-- Background of PhotoSwipe.
+				<!-- Root element of PhotoSwipe. Must have class pswp. -->
+				<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+					<!-- Background of PhotoSwipe.
 					 It's a separate element as animating opacity is faster than rgba(). -->
-				<div class="pswp__bg"></div>
+					<div class="pswp__bg"></div>
 
-				<!-- Slides wrapper with overflow:hidden. -->
-				<div class="pswp__scroll-wrap">
+					<!-- Slides wrapper with overflow:hidden. -->
+					<div class="pswp__scroll-wrap">
 
-					<!-- Container that holds slides.
+						<!-- Container that holds slides.
 						PhotoSwipe keeps only 3 of them in the DOM to save memory.
 						Don't modify these 3 pswp__item elements, data is added later on. -->
-					<div class="pswp__container">
-						<div class="pswp__item"></div>
-						<div class="pswp__item"></div>
-						<div class="pswp__item"></div>
-					</div>
+						<div class="pswp__container">
+							<div class="pswp__item"></div>
+							<div class="pswp__item"></div>
+							<div class="pswp__item"></div>
+						</div>
 
-					<!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-					<div class="pswp__ui pswp__ui--hidden">
+						<!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+						<div class="pswp__ui pswp__ui--hidden">
 
-						<div class="pswp__top-bar">
-							<div class="pswp__counter"></div>
-							<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-							<button class="pswp__button pswp__button--share" title="Share"></button>
-							<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-							<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-							<div class="pswp__preloader">
-								<div class="pswp__preloader__icn">
-									<div class="pswp__preloader__cut">
-										<div class="pswp__preloader__donut"></div>
+							<div class="pswp__top-bar">
+								<div class="pswp__counter"></div>
+								<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+								<button class="pswp__button pswp__button--share" title="Share"></button>
+								<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+								<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+								<div class="pswp__preloader">
+									<div class="pswp__preloader__icn">
+										<div class="pswp__preloader__cut">
+											<div class="pswp__preloader__donut"></div>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
 
-						<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-							<div class="pswp__share-tooltip"></div>
-						</div>
+							<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+								<div class="pswp__share-tooltip"></div>
+							</div>
 
-						<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+							<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
 
-						<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+							<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
 
-						<div class="pswp__caption">
-							<div class="pswp__caption__center"></div>
+							<div class="pswp__caption">
+								<div class="pswp__caption__center"></div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
 
-		</div>
+				</div>
 
-		<!-- JS -->
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/plugins.js"></script>
-		<script type="text/javascript" src="js/photoswipe.min.js"></script>
-		<script type="text/javascript" src="js/photoswipe-ui-default.min.js"></script>
-		<script type="text/javascript" src="js/photoswipe-main.js"></script>
-		<script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+				<!-- JS -->
+				<script type="text/javascript" src="js/jquery.min.js"></script>
+				<script type="text/javascript" src="js/bootstrap.min.js"></script>
+				<script type="text/javascript" src="js/plugins.js"></script>
+				<script type="text/javascript" src="js/photoswipe.min.js"></script>
+				<script type="text/javascript" src="js/photoswipe-ui-default.min.js"></script>
+				<script type="text/javascript" src="js/photoswipe-main.js"></script>
+				<script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
 
-		<script type="text/javascript" src="js/main.js"></script>
+				<script type="text/javascript" src="js/main.js"></script>
 
 </body>
 
